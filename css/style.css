@@ -1,0 +1,208 @@
+.carousel-item {
+    transition: opacity .5s ease-in-out;
+  }
+  
+  .carousel-item.active,
+  .carousel-item-next,
+  .carousel-item-prev {
+    opacity: 1;
+  }
+  
+  .carousel-item-next:not(.carousel-item-left),
+  .active.carousel-item-right {
+    opacity: 0;
+  }
+  
+  .carousel-item-prev:not(.carousel-item-right),
+  .active.carousel-item-left {
+    opacity: 0;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  .logo{
+    width: 350px;
+    height: 50px;
+    margin-top: 0px;
+  }
+  .logo_main{
+    margin-top: 65px;
+    margin-left: 50px; 
+  }
+  .so{
+     display: flex; 
+    margin-left: 550px;
+    margin-top: 19px;
+    font-size: 20px
+  }
+  .ac{
+    display: flex; 
+   margin-left: 1000px;
+   margin-top: -20px;
+   font-size: 20px;
+ }
+ button{
+  background-color: rgb(250, 7, 7);
+  font-size: 23px;
+  border: none ;
+ }
+ a{
+  text-decoration: none;
+  color: white;
+ }
+ .acces{
+  color: white;
+ }
+ .navbar_1{
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 40px;
+  color: black; 
+ }
+ #carouselExampleDark{
+  width: 85%;
+  margin-left: 90px;
+ }
+ .container_card{
+  display: flex;
+  margin-top: 15px;
+  margin-left: 86px;
+  justify-content: center;
+  width: 85%;
+  gap: 20px;
+  height: 300px;
+ }
+ .container_card_1{
+  margin-top: 55px;
+  margin-left: 80px;
+  z-index: -1;
+ }
+ .container_card_2{
+  margin-left: 450px;
+ z-index: 2;
+ margin-top: -240px;
+ }
+ .container_input{
+  background-color: rgba(184, 184, 184, 0.342);
+  width: 600px;
+  height: 270px;
+  margin-top: 60px;
+  margin-left: 80px
+ }
+ .input-1{
+  margin-left: 230px
+ }
+ input{
+  width: 90px;
+  outline: none;
+ }
+ .input-2{
+  margin-left: 405px;
+ }
+ .input-3{
+  margin-left: 315px;
+ }
+ .input-4{
+  margin-left: 325px;
+ }
+ .input-5{
+  margin-left: 353px;
+ }
+ .input-6{
+  margin-left: 340px;
+ }
+ .input-7{
+  margin-left: 365px;
+ }
+ form{
+  margin-left: 15px;
+ }
+ .container_card3{
+  margin-left: 750px;
+ z-index: 2;
+ margin-top: -270px;
+ }
+ .cal{
+  height: 100px;
+ }
+ .container, .p-4{
+  height: 250px;
+  margin-top: 30px;
+ }
+ .tac{
+  font-size: 10px;
+  margin-left: 1000px;
+ }
+ .nous{
+  font-size: 5px;
+  margin-right: 1000px;
+ }
+ .trouver{
+  font-size: 8px;
+  margin-right: 1000px;
+  margin-top: 15px;
+ }
+ .logo2{
+  margin-right: 1000px;
+  width: 80px;
+  height: 80px;
+  
+ }
+ /* .container-fluid{
+  display: flex;
+  gap: 20px;
+ } */
+ .site{
+  margin-top: -2px;
+  margin-left: 150px;
+  height: 35px;
+  
+ }
+ .suivre{
+  font-size: 20px;
+  margin-right: -10px;
+ }
+ .reduc{
+  width: 125px;
+ }
+ .bordure{
+  border-right: white solid 2px;
+ }
+ .fs{
+  font-size: 10px;
+ }
+ .si{
+  font-size: 10px;
+ }
+ .fa{
+  font-size: 10px;
+ }
+ .no{
+  font-size: 8px;
+  
+ }
+ .im{
+  font-size: 10px;
+ }
+ .re{
+  font-size: 10px;
+ }
+ .le{
+  font-size: 10px;
+ }
+ .men{
+  font-size: 10px;
+ }
+ .co{
+  font-size: 10px;
+ }
+ .cr{
+  font-size: 10px;
+ }
+ .carte{
+  margin-left: 600px;
+  margin-bottom: 50px;
+  width: 100px;
+  height: 100px;
+ }
